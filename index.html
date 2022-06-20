@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&family=Poppins:wght@500&family=Raleway&family=Cookie&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -38,17 +41,20 @@
         </div>
     </section>
     <section class="flavours-section">
-        <div class="spoon-page">
-            <div class="left-content">
-                <h3>Indian traditional flavours</h3>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, unde quis. Aliquid at facere
-                    consequuntur quam corporis ullam pariatur sed autem molestiae modi. Molestiae consectetur ex
-                    corrupti. Illo, sit expedita.
-                </p>
-            </div>
-            <div class="spoon-img">
-                <img src="/img/2.jpg" alt="">
+        <div class="spoon-page"> 
+            <div class="spoon-flex">
+                <div class="spoon-para">
+                        <h3>Indian traditional flavours</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, unde quis. Aliquid at facere
+                        consequuntur quam corporis ullam pariatur sed autem molestiae modi. Molestiae consectetur ex
+                        corrupti. Illo, sit expedita.
+                    </p>
+                </div>
+
+                <div class="spoon-img">
+                    <img src="/img/2.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -128,38 +134,38 @@
     <section class="booking-page">
         <h2 class="book-title">book here</h2>
         <div class="book-flex">
-        <div class="first-col">  
-            <h4>how many people?</h4>
-            <select name="people">
-                <option value="2">2 people</option>
-                <option value="3">3 people</option>
-                <option value="4">4 people</option>
-                <option value="5">5 people</option>
-            </select>
-            <h4>Name</h4>
-            <input type="text" placeholder="Full Name">
-        </div>
-
-        <div class="center-col">
-            <div class="date-div">
-                <h4>when is your date?</h4>
-                <input type="date">
+            <div class="first-col">
+                <h4>how many people?</h4>
+                <select name="people">
+                    <option value="2">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                </select>
+                <h4>Name</h4>
+                <input type="text" placeholder="Full Name">
             </div>
-            <div class="email">
-                <h4>Email</h4>
-                <input type="text" placeholder="your email addresss">
-            </div>
-            <button type="submit" class="sub-btn">Submit</button>
-        </div>
 
-        <div class="right-col">
-            <h4>time</h4>
-            <input type="time">
-        <div class="phone">
-            <h4>phone</h4>
-            <input type="number">
-        </div>
-    </div>
+            <div class="center-col">
+                <div class="date-div">
+                    <h4>when is your date?</h4>
+                    <input type="date">
+                </div>
+                <div class="email">
+                    <h4>Email</h4>
+                    <input type="text" placeholder="your email addresss">
+                </div>
+                <button type="submit" class="sub-btn">Submit</button>
+            </div>
+
+            <div class="right-col">
+                <h4>time</h4>
+                <input type="time">
+                <div class="phone">
+                    <h4>phone</h4>
+                    <input type="number">
+                </div>
+            </div>
     </section>
 
     <!-- empty-page-2 -->
@@ -171,71 +177,74 @@
         <h2>discover</h2>
         <h4>our new menu</h4>
         <div class="box-flex">
-        <div class="box">
-            <img src="/img/15.jpg" alt="">
-            <div class="text">
+            <div class="box">
+                <img src="/img/15.jpg" alt="">
+                <div class="text">
                     <h4>food / 20th june, 2022</h4>
                     <h4>Lorem ipsum dolor sit</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing,sad </p>
                     <a href="">read more</a>
                 </div>
-        </div>
-        <div class="box">
-                <img src="/img/16.jpg" alt="">
-                <div class="text">
-                        <h4>spices / 20th june, 2022</h4>
-                        <h4>Lorem ipsum dolor sit</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing,sad </p>
-                        <a href="">read more</a>
-                    </div>
             </div>
             <div class="box">
-                    <img src="/img/17.jpg" alt="">
-                    <div class="text">
-                            <h4>chicken curry / 20th june, 2022</h4>
-                            <h4>Lorem ipsum dolor sit</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing,sad </p>
-                            <a href="">read more</a>
-                        </div>
+                <img src="/img/16.jpg" alt="">
+                <div class="text">
+                    <h4>spices / 20th june, 2022</h4>
+                    <h4>Lorem ipsum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing,sad </p>
+                    <a href="">read more</a>
                 </div>
             </div>
+            <div class="box">
+                <img src="/img/17.jpg" alt="">
+                <div class="text">
+                    <h4>chicken curry / 20th june, 2022</h4>
+                    <h4>Lorem ipsum dolor sit</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing,sad </p>
+                    <a href="">read more</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- social-media-page -->
     <section class="social-media">
-        <h1>"</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sint maiores nam beatae quod odio, voluptates,aut error, assumenda explicabo facere veniam recusandae harum voluptatum tenetur cumque porro quia fugiat?</p>
+        <h1>&#8220</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui sint maiores nam beatae quod odio,
+            voluptates,aut error, assumenda explicabo facere veniam recusandae harum voluptatum tenetur cumque porro
+            quia fugiat?</p>
         <p class="author">Linda Steward</p>
         <div class="social-media-icon">
-        <i class="fa fa-facebook" ></i>
-        <i class="fa fa-twitter" ></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-pinterest-p"></i>
-        <i class="fa fa-google-plus"></i>
-    </div>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter" id="twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-pinterest-p"></i>
+            <i class="fa fa-google-plus"></i>
+        </div>
     </section>
 
     <!-- About-page -->
     <section class="about-page">
         <div class="abt-1">
-        <h2>about</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur soluta reiciendis alias quibusdam sed fuga voluptate fugit </p>
-    </div>
-    <div class="abt-1" id="bold">
-        <h2>about</h2>
-        <span>team</span>
-        <span>join us</span>
-        <span>ethic</span>
-        <span>goals</span>
-    </div>
-    <div class="abt-1" id="bold">
-        <h2>about</h2>
-        <span>team</span>
-        <span>join us</span>
-        <span>ethic</span>
-        <span>goals</span>
-    </div>
-    <div class="abt-1">
+            <h2>about</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur soluta reiciendis alias quibusdam
+                sed fuga voluptate fugit </p>
+        </div>
+        <div class="abt-1" id="bold">
+            <h2>about</h2>
+            <span>team</span>
+            <span>join us</span>
+            <span>ethic</span>
+            <span>goals</span>
+        </div>
+        <div class="abt-1" id="bold">
+            <h2>about</h2>
+            <span>team</span>
+            <span>join us</span>
+            <span>ethic</span>
+            <span>goals</span>
+        </div>
+        <div class="abt-1">
             <h2>about</h2>
             <span>team</span>
             <span>join us</span>
