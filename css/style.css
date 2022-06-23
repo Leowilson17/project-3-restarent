@@ -404,9 +404,6 @@
         padding-top: 6px;
     }
 }
-
-
-
 .traditional img{
     display: none;
 }
@@ -494,7 +491,6 @@
         margin-right: 20px;
     }
 }
-
 .menu-page{
     background-image: url(/img/12.jpg);
     background-size: cover;
@@ -533,14 +529,11 @@
     color: hsl(203deg 21% 21%);
     font-family: 'Raleway',sans-serif;
 }
-
-
 .empty-page{
 background-image: url(/img/13.jpg);
 background-size: cover;
 height: 700px;
 }
-
 .booking-page{
     background-color: hsl(191deg 21% 21%);
     height: auto;
@@ -649,8 +642,6 @@ height: 700px;
      text-align: start;
  }
 }
-
-
 .empty-page-2{
     background-image: url(/img/14.jpg);
     background-size: cover;
